@@ -1,0 +1,135 @@
+- Comments:
+     # This is a single-line comment.
+     ''' This is a multi-line comment. '''
+
+   - Print output:
+     print("Hello, World!")
+
+   - Variables and Data Types:
+     x = 5                       # Integer
+     y = 3.14                    # Float
+     z = "Hello"                 # String
+     is_true = True              # Boolean
+
+   - Operators:
+     Arithmetic: +, -, *, /, %, **, //
+     Assignment: =, +=, -=, *=, /=, %=
+     Comparison: ==, !=, >, <, >=, <=
+     Logical: and, or, not
+     Membership: in, not in
+
+   - Type Conversion:
+     x = 5
+     str(x)          # Convert to string
+     int(x)          # Convert to integer
+     float(x)        # Convert to float
+     bool(x)         # Convert to boolean
+
+2. Control Flow:
+
+   - Conditional Statements:
+     if condition:
+         # code block
+     elif condition:
+         # code block
+     else:
+         # code block
+
+   - Loops:
+     - For loop:
+       for item in sequence:
+           # code block
+
+     - While loop:
+       while condition:
+           # code block
+           if condition:
+               break
+
+   - Range:
+     for i in range(start, stop, step):
+         # code block
+
+3. Data Structures:
+
+   - Lists:
+     my_list = [1, 2, 3, 4, 5]
+     my_list.append(6)
+     my_list[0]            # Access element
+     len(my_list)          # Length of list
+
+   - Tuples:
+     my_tuple = (1, 2, 3)
+     x, y, z = my_tuple     # Unpacking
+     len(my_tuple)          # Length of tuple
+
+   - Dictionaries:
+     my_dict = {"key": "value", "name": "John"}
+     my_dict["key"]        # Access value
+     my_dict.keys()        # Get keys
+     my_dict.values()      # Get values
+
+   - Sets:
+     my_set = {1, 2, 3, 4}
+     my_set.add(5)
+     len(my_set)           # Length of set
+
+4. Functions:
+
+   - Defining a Function:
+     def my_function(parameters):
+         # code block
+         return value
+
+   - Calling a Function:
+     result = my_function(arguments)
+
+   - Default Arguments:
+     def my_function(x, y=0):
+         # code block
+
+5. File Handling:
+
+   - Reading from a File:
+     file = open("filename.txt", "r")
+     content = file.read()
+     file.close()
+
+   - Writing to a File:
+     file = open("filename.txt", "w")
+     file.write("Hello, World!")
+     file.close()
+
+6. Modules:
+
+   - Importing Modules:
+     import module_name
+
+   - Importing Specific Functions/Objects:
+     from module_name import function_name
+
+7. Error Handling:
+
+   - Try-Except Blocks:
+     try:
+         # code block
+     except ExceptionType:
+         # code block
+
+8. Object-Oriented Programming:
+
+   - Class Definition:
+     class MyClass:
+         def __init__(self, parameter):
+             self.property = parameter
+
+         def my_method(self):
+             # code block
+
+   - Creating an Object:
+     obj = MyClass(argument)
+
+9. Additional Resources:
+
+   - Official Python Documentation: https://docs.python.org
+   - Python Tutorial: https://docs.python.org/3/tutorial/index.html
